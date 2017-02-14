@@ -3,6 +3,8 @@
 // Define namespace
 namespace StarredSdkTest\Unit\Curl;
 
+use PHPUnit\Framework\TestCase;
+
 // Bootstrap
 require_once \realpath(\dirname(__FILE__) . '/../../../App/Autoload.php');
 
@@ -12,7 +14,7 @@ require_once \realpath(\dirname(__FILE__) . '/../../../App/Autoload.php');
  * @coversDefaultClass \StarredSdk\Curl\Request
  * @covers ::<protected>
  */
-class RequestTest extends \PHPUnit_Framework_TestCase
+class RequestTest extends TestCase
 {
 
     public function setUp()

@@ -4,6 +4,8 @@ namespace StarredSdkTest\System;
 
 require_once \realpath(__DIR__ . '/../../App/Autoload.php');
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * Invitation model system test
  *
@@ -14,7 +16,7 @@ require_once \realpath(__DIR__ . '/../../App/Autoload.php');
  *
  * @coversNothing
  */
-class InvitationTest extends \PHPUnit_Framework_TestCase
+class InvitationTest extends TestCase
 {
 
     /**

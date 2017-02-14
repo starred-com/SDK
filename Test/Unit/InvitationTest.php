@@ -8,13 +8,15 @@ require_once \realpath(__DIR__ . '/../../App/Invitation.php');
 require_once \realpath(__DIR__ . '/../../App/Curl/Request.php');
 require_once \realpath(__DIR__ . '/../../App/Config/Auth.php');
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * Curl request test case
  *
  * @coversDefaultClass \StarredSdk\Invitation
  * @covers ::<protected>
  */
-class InvitationTest extends \PHPUnit_Framework_TestCase
+class InvitationTest extends TestCase
 {
 
     /**
